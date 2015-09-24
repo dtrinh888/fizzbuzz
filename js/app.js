@@ -1,5 +1,6 @@
 function enterNumber(n) {
 
+	// got answer from member on stackoverflow
 	while (isNaN(parseInt(n))){
 		n = parseInt(prompt("Please enter a number: "));
 	}
